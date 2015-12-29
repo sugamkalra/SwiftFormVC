@@ -15,6 +15,7 @@
 		15015BD91C325EC300EDDB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15015BD71C325EC300EDDB2A /* LaunchScreen.storyboard */; };
 		15015BE41C325EC300EDDB2A /* SwiftyFormVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BE31C325EC300EDDB2A /* SwiftyFormVCTests.swift */; };
 		15015BEF1C325EC300EDDB2A /* SwiftyFormVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BEE1C325EC300EDDB2A /* SwiftyFormVCUITests.swift */; };
+		15015BFE1C325F2800EDDB2A /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BFD1C325F2800EDDB2A /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		15015BEA1C325EC300EDDB2A /* SwiftyFormVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyFormVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15015BEE1C325EC300EDDB2A /* SwiftyFormVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyFormVCUITests.swift; sourceTree = "<group>"; };
 		15015BF01C325EC300EDDB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15015BFD1C325F2800EDDB2A /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		15015BCA1C325EC300EDDB2A /* SwiftyFormVC */ = {
 			isa = PBXGroup;
 			children = (
+				15015BFC1C325ECA00EDDB2A /* FormVC */,
 				15015BCB1C325EC300EDDB2A /* AppDelegate.swift */,
 				15015BCD1C325EC300EDDB2A /* ViewController.swift */,
 				15015BCF1C325EC300EDDB2A /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				15015BF01C325EC300EDDB2A /* Info.plist */,
 			);
 			path = SwiftyFormVCUITests;
+			sourceTree = "<group>";
+		};
+		15015BFC1C325ECA00EDDB2A /* FormVC */ = {
+			isa = PBXGroup;
+			children = (
+				15015BFD1C325F2800EDDB2A /* FormViewController.swift */,
+			);
+			name = FormVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				15015BCE1C325EC300EDDB2A /* ViewController.swift in Sources */,
 				15015BD41C325EC300EDDB2A /* SwiftyFormVC.xcdatamodeld in Sources */,
+				15015BFE1C325F2800EDDB2A /* FormViewController.swift in Sources */,
 				15015BCC1C325EC300EDDB2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
