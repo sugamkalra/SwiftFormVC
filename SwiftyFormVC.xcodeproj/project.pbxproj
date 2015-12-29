@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15015BCC1C325EC300EDDB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BCB1C325EC300EDDB2A /* AppDelegate.swift */; };
+		15015BCE1C325EC300EDDB2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BCD1C325EC300EDDB2A /* ViewController.swift */; };
+		15015BD11C325EC300EDDB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15015BCF1C325EC300EDDB2A /* Main.storyboard */; };
+		15015BD41C325EC300EDDB2A /* SwiftyFormVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15015BD21C325EC300EDDB2A /* SwiftyFormVC.xcdatamodeld */; };
+		15015BD61C325EC300EDDB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15015BD51C325EC300EDDB2A /* Assets.xcassets */; };
+		15015BD91C325EC300EDDB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15015BD71C325EC300EDDB2A /* LaunchScreen.storyboard */; };
+		15015BE41C325EC300EDDB2A /* SwiftyFormVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BE31C325EC300EDDB2A /* SwiftyFormVCTests.swift */; };
+		15015BEF1C325EC300EDDB2A /* SwiftyFormVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15015BEE1C325EC300EDDB2A /* SwiftyFormVCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15015BE01C325EC300EDDB2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15015BC01C325EC300EDDB2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15015BC71C325EC300EDDB2A;
+			remoteInfo = SwiftyFormVC;
+		};
+		15015BEB1C325EC300EDDB2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15015BC01C325EC300EDDB2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15015BC71C325EC300EDDB2A;
+			remoteInfo = SwiftyFormVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15015BC81C325EC300EDDB2A /* SwiftyFormVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyFormVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15015BCB1C325EC300EDDB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15015BCD1C325EC300EDDB2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15015BD01C325EC300EDDB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15015BD31C325EC300EDDB2A /* SwiftyFormVC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftyFormVC.xcdatamodel; sourceTree = "<group>"; };
+		15015BD51C325EC300EDDB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15015BD81C325EC300EDDB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15015BDA1C325EC300EDDB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15015BDF1C325EC300EDDB2A /* SwiftyFormVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyFormVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15015BE31C325EC300EDDB2A /* SwiftyFormVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyFormVCTests.swift; sourceTree = "<group>"; };
+		15015BE51C325EC300EDDB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15015BEA1C325EC300EDDB2A /* SwiftyFormVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyFormVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15015BEE1C325EC300EDDB2A /* SwiftyFormVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyFormVCUITests.swift; sourceTree = "<group>"; };
+		15015BF01C325EC300EDDB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15015BC51C325EC300EDDB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15015BDC1C325EC300EDDB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15015BE71C325EC300EDDB2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15015BBF1C325EC300EDDB2A = {
+			isa = PBXGroup;
+			children = (
+				15015BCA1C325EC300EDDB2A /* SwiftyFormVC */,
+				15015BE21C325EC300EDDB2A /* SwiftyFormVCTests */,
+				15015BED1C325EC300EDDB2A /* SwiftyFormVCUITests */,
+				15015BC91C325EC300EDDB2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15015BC91C325EC300EDDB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15015BC81C325EC300EDDB2A /* SwiftyFormVC.app */,
+				15015BDF1C325EC300EDDB2A /* SwiftyFormVCTests.xctest */,
+				15015BEA1C325EC300EDDB2A /* SwiftyFormVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15015BCA1C325EC300EDDB2A /* SwiftyFormVC */ = {
+			isa = PBXGroup;
+			children = (
+				15015BCB1C325EC300EDDB2A /* AppDelegate.swift */,
+				15015BCD1C325EC300EDDB2A /* ViewController.swift */,
+				15015BCF1C325EC300EDDB2A /* Main.storyboard */,
+				15015BD51C325EC300EDDB2A /* Assets.xcassets */,
+				15015BD71C325EC300EDDB2A /* LaunchScreen.storyboard */,
+				15015BDA1C325EC300EDDB2A /* Info.plist */,
+				15015BD21C325EC300EDDB2A /* SwiftyFormVC.xcdatamodeld */,
+			);
+			path = SwiftyFormVC;
+			sourceTree = "<group>";
+		};
+		15015BE21C325EC300EDDB2A /* SwiftyFormVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				15015BE31C325EC300EDDB2A /* SwiftyFormVCTests.swift */,
+				15015BE51C325EC300EDDB2A /* Info.plist */,
+			);
+			path = SwiftyFormVCTests;
+			sourceTree = "<group>";
+		};
+		15015BED1C325EC300EDDB2A /* SwiftyFormVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15015BEE1C325EC300EDDB2A /* SwiftyFormVCUITests.swift */,
+				15015BF01C325EC300EDDB2A /* Info.plist */,
+			);
+			path = SwiftyFormVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15015BC71C325EC300EDDB2A /* SwiftyFormVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15015BF31C325EC300EDDB2A /* Build configuration list for PBXNativeTarget "SwiftyFormVC" */;
+			buildPhases = (
+				15015BC41C325EC300EDDB2A /* Sources */,
+				15015BC51C325EC300EDDB2A /* Frameworks */,
+				15015BC61C325EC300EDDB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyFormVC;
+			productName = SwiftyFormVC;
+			productReference = 15015BC81C325EC300EDDB2A /* SwiftyFormVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15015BDE1C325EC300EDDB2A /* SwiftyFormVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15015BF61C325EC300EDDB2A /* Build configuration list for PBXNativeTarget "SwiftyFormVCTests" */;
+			buildPhases = (
+				15015BDB1C325EC300EDDB2A /* Sources */,
+				15015BDC1C325EC300EDDB2A /* Frameworks */,
+				15015BDD1C325EC300EDDB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15015BE11C325EC300EDDB2A /* PBXTargetDependency */,
+			);
+			name = SwiftyFormVCTests;
+			productName = SwiftyFormVCTests;
+			productReference = 15015BDF1C325EC300EDDB2A /* SwiftyFormVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15015BE91C325EC300EDDB2A /* SwiftyFormVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15015BF91C325EC300EDDB2A /* Build configuration list for PBXNativeTarget "SwiftyFormVCUITests" */;
+			buildPhases = (
+				15015BE61C325EC300EDDB2A /* Sources */,
+				15015BE71C325EC300EDDB2A /* Frameworks */,
+				15015BE81C325EC300EDDB2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15015BEC1C325EC300EDDB2A /* PBXTargetDependency */,
+			);
+			name = SwiftyFormVCUITests;
+			productName = SwiftyFormVCUITests;
+			productReference = 15015BEA1C325EC300EDDB2A /* SwiftyFormVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15015BC01C325EC300EDDB2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sugam Kalra";
+				TargetAttributes = {
+					15015BC71C325EC300EDDB2A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					15015BDE1C325EC300EDDB2A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15015BC71C325EC300EDDB2A;
+					};
+					15015BE91C325EC300EDDB2A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 15015BC71C325EC300EDDB2A;
+					};
+				};
+			};
+			buildConfigurationList = 15015BC31C325EC300EDDB2A /* Build configuration list for PBXProject "SwiftyFormVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15015BBF1C325EC300EDDB2A;
+			productRefGroup = 15015BC91C325EC300EDDB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15015BC71C325EC300EDDB2A /* SwiftyFormVC */,
+				15015BDE1C325EC300EDDB2A /* SwiftyFormVCTests */,
+				15015BE91C325EC300EDDB2A /* SwiftyFormVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15015BC61C325EC300EDDB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15015BD91C325EC300EDDB2A /* LaunchScreen.storyboard in Resources */,
+				15015BD61C325EC300EDDB2A /* Assets.xcassets in Resources */,
+				15015BD11C325EC300EDDB2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15015BDD1C325EC300EDDB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15015BE81C325EC300EDDB2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15015BC41C325EC300EDDB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15015BCE1C325EC300EDDB2A /* ViewController.swift in Sources */,
+				15015BD41C325EC300EDDB2A /* SwiftyFormVC.xcdatamodeld in Sources */,
+				15015BCC1C325EC300EDDB2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15015BDB1C325EC300EDDB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15015BE41C325EC300EDDB2A /* SwiftyFormVCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15015BE61C325EC300EDDB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15015BEF1C325EC300EDDB2A /* SwiftyFormVCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15015BE11C325EC300EDDB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15015BC71C325EC300EDDB2A /* SwiftyFormVC */;
+			targetProxy = 15015BE01C325EC300EDDB2A /* PBXContainerItemProxy */;
+		};
+		15015BEC1C325EC300EDDB2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15015BC71C325EC300EDDB2A /* SwiftyFormVC */;
+			targetProxy = 15015BEB1C325EC300EDDB2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15015BCF1C325EC300EDDB2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15015BD01C325EC300EDDB2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15015BD71C325EC300EDDB2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15015BD81C325EC300EDDB2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15015BF11C325EC300EDDB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15015BF21C325EC300EDDB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15015BF41C325EC300EDDB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyFormVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyFormVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15015BF51C325EC300EDDB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyFormVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyFormVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15015BF71C325EC300EDDB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyFormVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyFormVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyFormVC.app/SwiftyFormVC";
+			};
+			name = Debug;
+		};
+		15015BF81C325EC300EDDB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyFormVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyFormVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyFormVC.app/SwiftyFormVC";
+			};
+			name = Release;
+		};
+		15015BFA1C325EC300EDDB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyFormVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyFormVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyFormVC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15015BFB1C325EC300EDDB2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftyFormVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Appirio.SwiftyFormVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftyFormVC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15015BC31C325EC300EDDB2A /* Build configuration list for PBXProject "SwiftyFormVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15015BF11C325EC300EDDB2A /* Debug */,
+				15015BF21C325EC300EDDB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15015BF31C325EC300EDDB2A /* Build configuration list for PBXNativeTarget "SwiftyFormVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15015BF41C325EC300EDDB2A /* Debug */,
+				15015BF51C325EC300EDDB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15015BF61C325EC300EDDB2A /* Build configuration list for PBXNativeTarget "SwiftyFormVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15015BF71C325EC300EDDB2A /* Debug */,
+				15015BF81C325EC300EDDB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15015BF91C325EC300EDDB2A /* Build configuration list for PBXNativeTarget "SwiftyFormVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15015BFA1C325EC300EDDB2A /* Debug */,
+				15015BFB1C325EC300EDDB2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15015BD21C325EC300EDDB2A /* SwiftyFormVC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15015BD31C325EC300EDDB2A /* SwiftyFormVC.xcdatamodel */,
+			);
+			currentVersion = 15015BD31C325EC300EDDB2A /* SwiftyFormVC.xcdatamodel */;
+			path = SwiftyFormVC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15015BC01C325EC300EDDB2A /* Project object */;
+}
